@@ -1,12 +1,22 @@
+//rfce
+
 import React from 'react'
 
-function functionClick() {
+function FunctionClick() {
+
+    function clickHandler(){
+        console.log('button clicked')
+    }
     return (
         <div>
-            <button> Click </button>
+            <button onClick= {clickHandler}> Click </button> 
+            {/* do not add () to the clickHandler */}
         </div>
     )
 }
 
-export default functionClick
+export default FunctionClick
+
+
+
 
