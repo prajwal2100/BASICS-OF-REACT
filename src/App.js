@@ -7,6 +7,9 @@ import {Message} from './components/message';
 import Counter from './components/counter';    // in this counter does not have curly braces as it does not have export in inline 
 import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
+import ParentComponent from './components/parentComponent';
+
+
 function App() {
   return (
     <div className="App">
@@ -19,11 +22,14 @@ function App() {
       {/* <Message /> */}
 
       {/* <Counter /> */}
-      
+{/*       
       <FunctionClick />
 
       <ClassClick />
 
+       */}
+
+      <ParentComponent />
      
     </div>
   );
